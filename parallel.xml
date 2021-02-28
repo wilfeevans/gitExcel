@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Learning TestNGXML" parallel="tests">
+	
+	<test name="TestCase1">
+
+		<parameter name="browser"  value="firefox"/>
+		<parameter name="url"  value="http://www.way2automation.com/"/>
+		<classes>
+			<class name="ExcelFileReader.ParallelTest" />
+		</classes>
+	</test> <!-- Test -->
+
+<test name="TestCase2">
+
+		<parameter name="browser"  value="chrome"/>
+		<parameter name="url"  value="https://www.facebook.com/"/>
+		<classes>
+			<class name="ExcelFileReader.ParallelTest" />
+		</classes>
+	</test> <!-- Test -->
+
+</suite> <!-- Suite -->

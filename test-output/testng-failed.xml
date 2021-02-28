@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Learning TestNGXML]" parallel="tests">
+  <test thread-count="5" name="TestCase1(failed)" parallel="tests">
+    <parameter name="browser" value="firefox"/>
+    <parameter name="url" value="http://www.way2automation.com/"/>
+    <classes>
+      <class name="ExcelFileReader.TestXML">
+        <methods>
+          <include name="Login"/>
+        </methods>
+      </class> <!-- ExcelFileReader.TestXML -->
+    </classes>
+  </test> <!-- TestCase1(failed) -->
+  <test thread-count="5" name="TestCase2(failed)" parallel="tests">
+    <parameter name="browser" value="chrome"/>
+    <parameter name="url" value="https://www.facebook.com/"/>
+    <classes>
+      <class name="ExcelFileReader.TestXML">
+        <methods>
+          <include name="Login"/>
+        </methods>
+      </class> <!-- ExcelFileReader.TestXML -->
+    </classes>
+  </test> <!-- TestCase2(failed) -->
+</suite> <!-- Failed suite [Learning TestNGXML] -->

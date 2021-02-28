@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="6028" started-at="2020-09-09T14:24:12Z" finished-at="2020-09-09T14:24:18Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="6028" started-at="2020-09-09T14:24:12Z" finished-at="2020-09-09T14:24:18Z">
+      <class name="ExcelFileReader.TestRegistration">
+        <test-method status="PASS" signature="doRegistration(java.lang.String, java.lang.String)[pri:0, instance:ExcelFileReader.TestRegistration@5c3bd550]" name="doRegistration" duration-ms="47" started-at="2020-09-09T14:24:18Z" data-provider="getData" finished-at="2020-09-09T14:24:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[kamalaesh]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[seller]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doRegistration -->
+        <test-method status="PASS" signature="doRegistration(java.lang.String, java.lang.String)[pri:0, instance:ExcelFileReader.TestRegistration@5c3bd550]" name="doRegistration" duration-ms="48" started-at="2020-09-09T14:24:18Z" data-provider="getData" finished-at="2020-09-09T14:24:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ramesh]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[nair]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doRegistration -->
+        <test-method status="PASS" signature="doRegistration(java.lang.String, java.lang.String)[pri:0, instance:ExcelFileReader.TestRegistration@5c3bd550]" name="doRegistration" duration-ms="54" started-at="2020-09-09T14:24:18Z" data-provider="getData" finished-at="2020-09-09T14:24:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[dinesh]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[byer]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doRegistration -->
+        <test-method status="PASS" signature="doRegistration(java.lang.String, java.lang.String)[pri:0, instance:ExcelFileReader.TestRegistration@5c3bd550]" name="doRegistration" duration-ms="46" started-at="2020-09-09T14:24:18Z" data-provider="getData" finished-at="2020-09-09T14:24:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[suresh]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[iayar]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doRegistration -->
+      </class> <!-- ExcelFileReader.TestRegistration -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

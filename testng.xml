@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Learning TestNGXML">
+	<test name="TestCase1">
+
+		<parameter name="username"  value="test1@gmail.com"/>
+		<parameter name="password"  value="sampletest"/>
+		<classes>
+			<class name="ExcelFileReader.TestXML" />
+		</classes>
+	</test> <!-- Test -->
+
+<test name="TestCase2">
+
+		<parameter name="username"  value="test2@gmail.com"/>
+		<parameter name="password"  value="sampletest123"/>
+		<classes>
+			<class name="ExcelFileReader.TestXML" />
+		</classes>
+	</test> <!-- Test -->
+
+	
+</suite> <!-- Suite -->
